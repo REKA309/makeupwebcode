@@ -1,0 +1,61 @@
+.card-img-top{
+    width: 300px;
+    height: 350px;
+}
+.imgDiv{
+    display: flex;
+    justify-content: center;
+}
+.row
+{
+    background-color: rgb(211, 16, 113);
+    display: flex;
+   justify-content: end;
+   font-family: cursive;
+   color: aliceblue;
+}
+.highlight {
+    background-color: yellow;
+  }
+  .tagline{
+    background-color:deeppink;
+    display: flex;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: floralwhite;
+  }
+  #popup1 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(224, 88, 202);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(224, 14, 14, 0.5);
+  }
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: pink;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(147, 6, 102, 0.5);
+  }
+  .buttonDiv{
+    display:flex;
+   justify-content: space-between;
+  }
+  .title{
+    background-image: linear-gradient(120deg,rgb(216, 26, 58),rgb(234, 15, 125));
+    display: flex;
+    flex-direction: start;
+    color:ghostwhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:large ;
+    padding: 20px;
+    box-sizing: border-box;
+  }
